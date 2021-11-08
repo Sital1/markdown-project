@@ -42,6 +42,7 @@ test_phase:
   only:
     - main
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 # PUBLISH_PHASE
@@ -56,11 +57,27 @@ publish_phase:
   script:
     - docker build -t $DOCKER_REPO_USERNAME/$DOCKER_REPO_NAME:doc --build-arg password=$PASSWORD .
     - docker push $DOCKER_REPO_USERNAME/$DOCKER_REPO_NAME:doc
+=======
+
+# PUBLISH_PHASE
+#=============
+publish_phase:
+  before_script:
+    - echo $DOCKER_REPO_PASSWORD | docker login --username $DOCKER_REPO_USERNAME --password-stdin
+  stage:  publish
+  image:  docker:git
+  services:
+    - docker:20.10.9-dind
+  script:
+    - docker build -t $DOCKER_REPO_USERNAME/$DOCKER_REPO_NAME:auth .
+    - docker push $DOCKER_REPO_USERNAME/$DOCKER_REPO_NAME:auth
+>>>>>>> def422d (added Dockerfile and fixed CI/CD pipeline)
   cache:
     policy: pull
     key:  "$CI_COMMIT_REF_NAME"
     paths:
       - build
+<<<<<<< HEAD
 
 # DEPLOY PHASE
 ##===============
@@ -77,3 +94,5 @@ deploy_assets:
     - main
 =======
 >>>>>>> 1a0a1ad (Added prod mongo config)
+=======
+>>>>>>> def422d (added Dockerfile and fixed CI/CD pipeline)
