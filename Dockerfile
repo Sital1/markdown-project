@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM openjdk:11.0.11-jdk
 <<<<<<< HEAD
 COPY build/libs/doc-0.0.1-SNAPSHOT.jar app.jar
@@ -9,6 +10,9 @@ COPY build/libs/auth-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT exec java $JAVA_OPTS -Djdk.tls.client.protocols=TLSv1.2 -jar /app.jar
 =======
 FROM nginx:alpine
+=======
+FROM nginx:latest
+>>>>>>> 90cd82e (Updated dockefile)
 
 # Removes the current directory to serve
 RUN rm -f /usr/share/nginx/html/*
@@ -23,5 +27,9 @@ COPY nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 
 # Hold the docker image running
+<<<<<<< HEAD
 CMD ["nginx","-g","dameon off;"]
 >>>>>>> 00bf48d (fixed pipeline)
+=======
+CMD ["nginx","-g","dameon on;"]
+>>>>>>> 90cd82e (Updated dockefile)
