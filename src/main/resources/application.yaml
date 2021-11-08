@@ -17,6 +17,7 @@ spring:
   data:
     mongodb:
 <<<<<<< HEAD
+<<<<<<< HEAD
       uri: mongodb://localhost:27017
       database: ENC(qw4udVtkdO6ULBr7B43/mcdV6Hz9pri4)
 
@@ -28,6 +29,9 @@ management:
         include: '*'
 =======
       host: mongodb://localhost:27017
+=======
+      uri: mongodb://localhost:27017
+>>>>>>> 1a0a1ad (Added prod mongo config)
       database: auth-demo
 <<<<<<< HEAD
 >>>>>>> 83af4d6 (Created models and database config)

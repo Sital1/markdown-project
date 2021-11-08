@@ -1,8 +1,11 @@
 stages:
   - build
   - test
+<<<<<<< HEAD
   - publish
   - deploy
+=======
+>>>>>>> 1a0a1ad (Added prod mongo config)
 
 
 # BUILD_PHASE
@@ -38,6 +41,7 @@ test_phase:
       - .gradle
   only:
     - main
+<<<<<<< HEAD
 
 
 # PUBLISH_PHASE
@@ -71,3 +75,5 @@ deploy_assets:
     - kubectl patch deployment doc-app-deployment -p "{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"date\":\"`date +'%s'`\"}}}}}"
   only:
     - main
+=======
+>>>>>>> 1a0a1ad (Added prod mongo config)
