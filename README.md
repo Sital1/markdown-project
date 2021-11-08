@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Markdown-doc
 
 This micro service will handle user documents
@@ -40,3 +41,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 >>>>>>> b218c67 (Created Login/Logout components)
+=======
+# Markdown-doc
+
+This micro service will handle user documents
+>>>>>>> ea3ab62 (Initial commit)
