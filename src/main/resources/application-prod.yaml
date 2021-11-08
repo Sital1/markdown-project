@@ -1,16 +1,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 server:
   port: 9998
 
 
+=======
+>>>>>>> b0abafb (Updated properties and encoded urls)
 jasypt:
   encryptor:
     algorithm: PBEWithMD5AndDES
     iv-generator-classname: org.jasypt.iv.NoIvGenerator
     password: ${password}
 
+<<<<<<< HEAD
 
 # database
 
@@ -26,6 +30,8 @@ server:
 >>>>>>> 84f1262 (Added actuator)
 =======
 >>>>>>> 9456ed1 (Updated properties)
+=======
+>>>>>>> b0abafb (Updated properties and encoded urls)
 
 #Database
 spring:

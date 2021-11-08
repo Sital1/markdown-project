@@ -10,9 +10,13 @@ jasypt:
     algorithm: PBEWithMD5AndDES
     iv-generator-classname: org.jasypt.iv.NoIvGenerator
 <<<<<<< HEAD
+<<<<<<< HEAD
     password: ${password}
 =======
 =======
+=======
+    password: ${password}
+>>>>>>> b0abafb (Updated properties and encoded urls)
 
 >>>>>>> 70a0dc6 (Updated properties and encoded urls)
 
