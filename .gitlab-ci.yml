@@ -9,6 +9,7 @@ stages:
 >>>>>>> 1a0a1ad (Added prod mongo config)
 =======
   - publish
+  - deploy
 
 >>>>>>> 2d9a3fe (Updated CI/CD pipeline)
 
