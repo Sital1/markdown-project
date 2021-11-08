@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 server:
   port: 9998
 
@@ -23,13 +24,17 @@ spring:
 server:
   port: 9999
 >>>>>>> 84f1262 (Added actuator)
+=======
+>>>>>>> 9456ed1 (Updated properties)
 
+#Database
 spring:
   data:
     mongodb:
       uri: mongodb+srv://sitouls:Uranium12%40@markdowner.1tvtg.mongodb.net/test?retryWrites=true&w=majority
       database: auth-prod
 
+#JWT
 jwt:
   secret:
     key: RWHxVfglggk2ZHBIJSl/RoJmkW3olz/rkBce6oEne38/JCzqRqLO5fD1TUFSxP4Ar4/EzCEtuM4SD4Okccco4C==
