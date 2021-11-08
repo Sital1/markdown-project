@@ -29,4 +29,12 @@ management:
 =======
       host: mongodb://localhost:27017
       database: auth-demo
+<<<<<<< HEAD
 >>>>>>> 83af4d6 (Created models and database config)
+=======
+
+jwt:
+  secret:
+    key: pFtzHkzwMZWguXpY9XfN0ikS0w7BVgDs7azZaRA+R3b4QWqIBdvkVNzoGSG5dJU/FJ3dIhttfunvh7IY3RhP/Q==
+
+>>>>>>> 5811a10 (created controller, service and daos)
