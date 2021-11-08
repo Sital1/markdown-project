@@ -19,9 +19,6 @@ spring:
       database: doc-prod
 =======
 
-server:
-  port: 9999
-
 spring:
   data:
     mongodb:
