@@ -9,7 +9,7 @@ stages:
 
 
 # BUILD_PHASE
-#=============
+#================
 build_phase:
   variables:
     SPRING_PROFILES_ACTIVE: "prod"
