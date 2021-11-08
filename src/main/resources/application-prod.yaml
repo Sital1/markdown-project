@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 server:
   port: 9998
 
@@ -18,6 +19,10 @@ spring:
       uri: ENC(+rwKqqZAVNi1GBG/mmWIzwpBokNKa0FBTjAxiKhogF0gUgs5AMPaeac8/F+VIYHMKaKSdtZAz7SE2geEmF8NwZzhKGgqftgUrg+VNjbQtyWobt0/f5508cyzpz9rEegqOOdMD54HguAWSuEcwHZ7Vw==)
       database: doc-prod
 =======
+=======
+server:
+  port: 9999
+>>>>>>> 84f1262 (Added actuator)
 
 spring:
   data:

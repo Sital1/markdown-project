@@ -41,4 +41,12 @@ jwt:
   secret:
     key: pFtzHkzwMZWguXpY9XfN0ikS0w7BVgDs7azZaRA+R3b4QWqIBdvkVNzoGSG5dJU/FJ3dIhttfunvh7IY3RhP/Q==
 
+<<<<<<< HEAD
 >>>>>>> 5811a10 (created controller, service and daos)
+=======
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+>>>>>>> 84f1262 (Added actuator)
