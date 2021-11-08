@@ -28,8 +28,12 @@ EXPOSE 80
 
 # Hold the docker image running
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMD ["nginx","-g","dameon off;"]
 >>>>>>> 00bf48d (fixed pipeline)
 =======
 CMD ["nginx","-g","dameon on;"]
 >>>>>>> 90cd82e (Updated dockefile)
+=======
+CMD ["nginx","-g","daemon off;"]
+>>>>>>> eb965d9 (Updated dockefile)
