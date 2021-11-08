@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 server:
   port: 9998
 
@@ -6,10 +7,16 @@ jasypt:
     algorithm: PBEWithMD5AndDES
     iv-generator-classname: org.jasypt.iv.NoIvGenerator
     password: ${password}
+=======
+
+server:
+  port: 9999
+>>>>>>> 83af4d6 (Created models and database config)
 
 spring:
   data:
     mongodb:
+<<<<<<< HEAD
       uri: mongodb://localhost:27017
       database: ENC(qw4udVtkdO6ULBr7B43/mcdV6Hz9pri4)
 
@@ -19,3 +26,7 @@ management:
     web:
       exposure:
         include: '*'
+=======
+      host: mongodb://localhost:27017
+      database: auth-demo
+>>>>>>> 83af4d6 (Created models and database config)

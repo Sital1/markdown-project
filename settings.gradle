@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 rootProject.name = 'doc'
+=======
+rootProject.name = 'auth'
+>>>>>>> 83af4d6 (Created models and database config)
