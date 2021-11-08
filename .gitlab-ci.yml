@@ -65,7 +65,7 @@ publish_phase:
 =======
 
 # PUBLISH_PHASE
-#===============
+#================
 publish_phase:
   stage:  publish
   before_script:
