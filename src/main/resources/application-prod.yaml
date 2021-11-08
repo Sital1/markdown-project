@@ -5,6 +5,7 @@
 server:
   port: 9998
 
+# database
 
 =======
 >>>>>>> b0abafb (Updated properties and encoded urls)
