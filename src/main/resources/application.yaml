@@ -1,13 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 server:
   port: 9998
 
+=======
+>>>>>>> 70a0dc6 (Updated properties and encoded urls)
 jasypt:
   encryptor:
     algorithm: PBEWithMD5AndDES
     iv-generator-classname: org.jasypt.iv.NoIvGenerator
+<<<<<<< HEAD
     password: ${password}
 =======
+=======
+
+>>>>>>> 70a0dc6 (Updated properties and encoded urls)
 
 server:
   port: 9999
@@ -39,7 +46,7 @@ management:
 
 jwt:
   secret:
-    key: pFtzHkzwMZWguXpY9XfN0ikS0w7BVgDs7azZaRA+R3b4QWqIBdvkVNzoGSG5dJU/FJ3dIhttfunvh7IY3RhP/Q==
+    key: ENC(2XDppU9hUY8iskc89d1GFBfVfVVo2QWXOAi+IKGXfb2F/Ty9nC+eG5dvztpcF/j9yZehJsiFqUDKs/lmVWuqwpU1oBB9KJifBJjAs0eMm8m68BeaoZOyIGyCkyfMF8nzcsbCAJhxlTs=)
 
 <<<<<<< HEAD
 >>>>>>> 5811a10 (created controller, service and daos)

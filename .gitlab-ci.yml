@@ -83,9 +83,15 @@ publish_phase:
     paths:
       - build
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # DEPLOY PHASE
 ##===============
+=======
+
+# Deploy Phase
+#==============
+>>>>>>> 70a0dc6 (Updated properties and encoded urls)
 deploy_assets:
   stage: deploy
   image: google/cloud-sdk:latest
@@ -93,6 +99,7 @@ deploy_assets:
     - echo $GCP_CREDENTIALS > /tmp/gcp_credentials.json
     - gcloud auth activate-service-account --key-file /tmp/gcp_credentials.json
     - gcloud config set project markdowner
+<<<<<<< HEAD
     - gcloud container clusters get-credentials  markdowner-cluster --region us-central1-a --project markdowner
     - kubectl patch deployment doc-app-deployment -p "{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"date\":\"`date +'%s'`\"}}}}}"
   only:
@@ -101,3 +108,10 @@ deploy_assets:
 >>>>>>> 1a0a1ad (Added prod mongo config)
 =======
 >>>>>>> def422d (added Dockerfile and fixed CI/CD pipeline)
+=======
+    - gcloud container clusters get-credentials markdowner-cluster --region us-central1-a --project markdowner
+    - kubectl patch deployment auth-app-deployment -p "{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"date\":\"`date +'%s'`\"}}}}}"
+  only:
+    - main
+
+>>>>>>> 70a0dc6 (Updated properties and encoded urls)
