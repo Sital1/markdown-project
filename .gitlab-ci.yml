@@ -191,7 +191,7 @@ publish_phase:
 =======
 
 # Deploy Phase
-#==============+
+#==============+==
 deploy_assets:
     stage: deploy
     image: google/cloud-sdk:latest
