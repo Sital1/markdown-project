@@ -2,6 +2,10 @@
 <<<<<<< HEAD
 server:
   port: 9998
+jasypt:
+  encryptor:
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
 
 =======
 >>>>>>> 70a0dc6 (Updated properties and encoded urls)
